@@ -4,6 +4,7 @@ vultr-ssh is a CLI tool to access via ssh accessing a list of vps in vultr.com a
 Requirements
 --------
 vultr-cli - https://github.com/yikaus/vultrcli
+Vps label in vultr with the hostname of the machine
 ssh client
 
 Installation (all dependency will be installed)
