@@ -1,5 +1,5 @@
 vultr-ssh 0.0.1
-vultr-ssh is a CLI tool to access via ssh accessing a list of vps in vultr.com account via api. 
+vultr-ssh is a CLI tool to access via ssh accessing a list of vps in vultr.com account via api (https://www.vultr.com/api/). 
 
 Requirements
 --------
@@ -8,8 +8,13 @@ ssh client
 
 Installation (all dependency will be installed)
 ------------
+Install vultrcli:
+https://github.com/yikaus/vultrcli
+Copy vucli.py in /usr/local/bin
+
+Install vultr-ssh
 git clone https://github.com/dperilla/vultr-ssh
-editr vultr-ssh and add api key and ssh port.
+edit vultr-ssh and edit api_key and ssh_port variables.
 chmod +x vultr-ssh
 ./vultr-ssh
 
