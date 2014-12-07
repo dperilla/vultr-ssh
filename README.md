@@ -9,7 +9,7 @@ ssh client
 Installation (all dependency will be installed)
 ------------
 git clone https://github.com/dperilla/vultr-ssh
-cd vultr-ssh
+editr vultr-ssh and add api key and ssh port.
 chmod +x vultr-ssh
 ./vultr-ssh
 
